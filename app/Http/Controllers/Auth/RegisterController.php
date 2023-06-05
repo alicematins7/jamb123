@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
@@ -33,7 +32,7 @@ class RegisterController extends Controller
 
     /**
      * Create a new controller instance.
-     *
+     *="{{
      * @return void
      */
     public function __construct()
@@ -73,3 +72,5 @@ class RegisterController extends Controller
         ]);
     }
 }
+?>
+
